@@ -1,0 +1,49 @@
+/* Reset some default styles for consistency */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a simple style to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Style the header and navigation menu */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Style sections */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
